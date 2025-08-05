@@ -1,0 +1,48 @@
+ #home {
+    position: relative;
+    animation-name: headMotion  ;
+    animation-duration: 2s;
+}
+
+@keyframes headMotion {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+#home-R{
+ position: relative;
+    animation-name: homeRight  ;
+    animation-duration: 2s;
+}
+@keyframes homeRight {
+    from {
+        left: -100px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+#home-L{
+ position: relative;
+    animation-name: homeLeft  ;
+    animation-duration: 2s;
+}
+@keyframes homeLeft {
+    from {
+        right: -100px;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}

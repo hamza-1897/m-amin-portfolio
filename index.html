@@ -9,7 +9,7 @@
     <title>M AMIN</title>
   
 </head>
-<body class="bg-[#242625]">
+<body class="bg-gray-800">
   
   <div id='home' class="w-[100%] flex justify-between items-center h-[10vh] overflow-hidden bg-[#242625]  shadow-sm shadow-white">
 <div id="nav-logo" class="h-full w-[30%]  flex items-center justify-center  ">
@@ -129,7 +129,7 @@
 
  <section id="experience" class="experience-section py-16 px-4 md:px-8 max-w-5xl mx-auto text-center">
         <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-2">Driving Experience</h2>
-        <p class="text-lg text-white mb-12">Meri maharatein aur tajurba darj-e-zel hain:</p>
+        <p class="text-lg text-white mb-12">:</p>
         
         <!-- Timeline Container -->
         <div class="relative flex flex-col items-center">
@@ -199,54 +199,89 @@
 
 <!--Contact-->
  
-<div>
-  <div id='contact' class='flex flex-col w-full md:h-[90vh] h-[75vh] my-5 md:my-7'>
-      <div class='flex justify-center items-center w-full md:h-[6%]'>
-        <h1 class='md:text-3xl text-2xl text-white font-bold'> Get In Touch</h1>
-      </div>
-      <div class=' flex justify-center items-center w-full h-[90%]'>
-            <div class='md:w-[60%] w-[75%] rounded-lg flex flex-col gap-3.5 items-center shadow-[2px_2px_5px_rgba(0,0,0,0.3),_-2px_-2px_15px_rgba(255,255,255,0.3)] h-[80%] md:h-[75%]'>
 
-                <div id='name' class='w-full flex pt-2 md:pt-0 md:flex-row flex-col justify-center items-center md:gap-0.5 gap-2 md:h-[20%] h-[35%]'>
-                    <div class='md:w-[50%] w-[90%] flex md:flex-row flex-col justify-center items-center h-full'>
-                        <div class='flex flex-col gap-2 text-white w-full md:w-[90%] h-[50%]'>
-                            <h1 class='text-sm'>Name*</h1>
-                            <input type="text" name="name" placeholder='Enter Your Name...' class='rounded px-3 py-2 bg-slate-950' />
-                        </div>
-                    </div>
-                    <div class='md:w-[50%] w-[90%] flex justify-center items-center  h-full'>
-                        <div class='flex flex-col gap-2 text-white w-full md:w-[90%] h-[50%]'>
-                            <h1 class='text-sm'>Email*</h1>
-                            <input type="text" name="email" placeholder='Enter Your Email...' class='rounded px-3 py-2 bg-slate-950' />
-                        </div>
-                    </div>      
-                              </div>
-
-
-
-                <div id='mes' class='w-full h-[40%] md:my-0  mt-6 md:h-[50%]  flex justify-center'>
-                     <div class='md:w-[95%] w-[90%] flex flex-col gap-2 text-white  h-full'>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 md:px-8 bg-gray-800">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center text-white mb-4">Contact Me</h2>
+            <p class="text-center text-gray-400 max-w-2xl mx-auto mb-12">
+                I'm currently open to new opportunities. Feel free to reach out to me with any questions or project ideas.
+            </p>
+            
+            <div class="flex flex-col justify-center items-center  gap-12  mx-auto">
+                
+               
+                
+                <!-- Contact Details and Social Links -->
+                <div class="w-full md:w-1/2 flex flex-col items-center justify-center">
+                    <div class="space-y-6 bg-gray-900 p-8 rounded-xl shadow-lg">
                         
-                            <h1 class='text-sm'>Your Message*</h1>
-                                <textarea name="Message" placeholder='Write Your Message here.....' id="message" rows="7" class='rounded px-3 py-3   bg-slate-950'></textarea>
-                                 
-                    </div>   
+                        <!-- Email -->
+                        <div class="flex items-center space-x-4">
+                            <i class="fa-solid fa-envelope text-2xl text-blue-500"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-300">Email Address</h4>
+                                <a href="mailto:amin@example.com" class="text-blue-400 hover:underline">Mohammadamin78630@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Phone -->
+                        <div class="flex items-center space-x-4">
+                            <i class="fa-solid fa-phone text-2xl text-blue-500"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-300">Phone Number</h4>
+                                <a href="tel:+921234567890" class="text-blue-400 hover:underline">+49 152 15701814</a>
+                            </div>
+                        </div>
+                        
+                         <!-- Phone -->
+                        <div class="flex items-center space-x-4">
+                            <i class="fa-solid fa-phone text-2xl text-blue-500"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-300">Phone Number</h4>
+                                <a href="tel:+921234567890" class="text-blue-400 hover:underline">+92 324 8678456</a>
+                            </div>
+                        </div>
 
-                </div>
-                <div id='send' class='w-full h-[15%]  flex items-center justify-center'>
-                    <button type="submit" class='flex cursor-pointer justify-center md:h-[60%] py-1 h-[55%] mb-3 rounded w-[85%] font-bold items-center bg-blue-500 text-white hover:shadow-blue-400 gap-1 hover:bg-blue-700'><span class='text-lg md:text-xl'><i class="fa-solid fa-paper-plane"></i></span><h1>Send Message</h1></button>
-                </div>
+                         <!-- address -->
+                        <div class="flex items-center space-x-4">
+                            <i class="fa-solid fa-house text-2xl text-blue-500"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-300">Address</h4>
+                                <a href="tel:+921234567890" class="text-blue-400 hover:underline">Sausupio g 15 02301 Vilnius Lithuania</a>
+                            </div>
+                        </div>
 
+                        <!-- Social Media -->
+                        <div class="pt-4">
+                            <h4 class="text-lg font-semibold text-gray-300 mb-4">Follow Me</h4>
+                            <div class="flex space-x-6">
+                                <a href="https://www.instagram.com/mohammad.amin.gujjar" target="_blank" class="text-gray-400 hover:text-white transform hover:scale-125 transition-transform duration-300">
+                                    <i class="fa-brands fa-instagram text-3xl"></i>
+                                </a>
+                                <a href="https://www.facebook.com/mohammadamin786gujjar/" target="_blank" class="text-gray-400 hover:text-white transform hover:scale-125 transition-transform duration-300">
+                                    <i class="fa-brands fa-facebook text-3xl"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@m.amin.gujjar" target="_blank" class="text-gray-400 hover:text-white transform hover:scale-125 transition-transform duration-300">
+                                    <i class="fa-brands fa-tiktok text-3xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
             </div>
-      </div>
-    </div>
-</div>
+            
+        </div>
+    </section>
+
 
 <!--Footer-->
    <div class='flex w-full h-[22vh] md:flex-row py-2 flex-col md:h-[12vh]  border-t justify-around items-center'>
             <div id='links' class='md:h-full h-[30%]  flex justify-center   items-center w-full md:w-[30%]'>
 
-                    <div class='flex justify-center  gap-8 items-center'>
+                    <div class='flex justify-center   hidden gap-8 items-center'>
                          <a class='text-white text-2xl hover:text-red-500 ' target='_blank' href="https://www.instagram.com/mohammad.amin.gujjar"><i class="fa-brands fa-instagram"></i></a>
       <a class='text-white text-2xl hover:text-blue-500 ' target='_blank'  href="https://www.facebook.com/mohammadamin786gujjar/"><i class="fa-brands fa-facebook"></i></a>
                         <a class='text-white text-2xl hover:text-red-500 ' target='_blank' href="https://www.tiktok.com/@m.amin.gujjar"><i class="fa-brands fa-tiktok"></i></i></a>
